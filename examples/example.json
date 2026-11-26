@@ -1,0 +1,8 @@
+{
+  "_note": "EXAMPLE DATA, invented for this demo. Not from any real company.",
+  "sources": {
+    "kb-1": "The Pro plan costs 49 USD per month and includes 3 seats. Support replies within 24 hours on weekdays.",
+    "kb-2": "Data is stored in the São Paulo region. Exports are available as CSV and JSON."
+  },
+  "answer": "The Pro plan costs 49 USD per month [kb-1]. It includes 5 seats [kb-1]. Support “replies within 24 hours on weekdays” [kb-1]. Data stays in São Paulo [kb-2]. Exports are also offered as \"PDF and XML\" [kb-2]. You can cancel at any time. See the pricing page [kb-9]."
+}

@@ -1,0 +1,22 @@
+[project]
+name = "rag-cite-check"
+version = "0.1.0"
+description = "Offline check that a RAG answer's citations and quotes match the sources it was given"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+rag-cite-check = "ragcite.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ragcite"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
